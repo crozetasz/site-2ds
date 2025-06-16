@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTs - Informação e Prevenção</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>ISTs Info</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre ISTs</a></li>
+                    <li><a href="#prevention">Prevenção</a></li>
+                    <li><a href="#comments">Comentários</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Informações sobre ISTs</h1>
+                <p>Conhecimento é a melhor forma de prevenção. Aprenda sobre Infecções Sexualmente Transmissíveis e como se proteger.</p>
+                <a href="#about" class="cta-button">Saiba Mais</a>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <div class="graphic-circle"></div>
+                    <div class="graphic-plus">+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About ISTs Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>O que são ISTs?</h2>
+            <p class="section-intro">As Infecções Sexualmente Transmissíveis (ISTs) são causadas por vírus, bactérias ou outros microrganismos, transmitidas principalmente por contato sexual.</p>
+            
+            <div class="ist-grid">
+                <div class="ist-card">
+                    <div class="ist-icon">🦠</div>
+                    <h3>HIV/AIDS</h3>
+                    <p>Vírus da Imunodeficiência Humana que ataca o sistema imunológico. Com tratamento adequado, pessoas com HIV podem ter vida normal.</p>
+                </div>
+                
+                <div class="ist-card">
+                    <div class="ist-icon">🔬</div>
+                    <h3>Sífilis</h3>
+                    <p>Infecção bacteriana que pode ser curada com antibióticos quando diagnosticada precocemente.</p>
+                </div>
+                
+                <div class="ist-card">
+                    <div class="ist-icon">⚕️</div>
+                    <h3>Gonorreia</h3>
+                    <p>Infecção bacteriana comum que afeta órgãos genitais, reto e garganta. Tratável com antibióticos.</p>
+                </div>
+                
+                <div class="ist-card">
+                    <div class="ist-icon">🧬</div>
+                    <h3>HPV</h3>
+                    <p>Papilomavírus Humano é uma das ISTs mais comuns. Existe vacina disponível para prevenção.</p>
+                </div>
+                
+                <div class="ist-card">
+                    <div class="ist-icon">🔍</div>
+                    <h3>Herpes</h3>
+                    <p>Infecção viral que causa lesões na pele. Não tem cura, mas os sintomas podem ser controlados.</p>
+                </div>
+                
+                <div class="ist-card">
+                    <div class="ist-icon">🩺</div>
+                    <h3>Hepatite B</h3>
+                    <p>Infecção viral que afeta o fígado. Existe vacina disponível e tratamento para casos crônicos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prevention Section -->
+    <section id="prevention" class="prevention">
+        <div class="container">
+            <h2>Como se Prevenir</h2>
+            <div class="prevention-grid">
+                <div class="prevention-item">
+                    <div class="prevention-icon">🛡️</div>
+                    <h3>Use Preservativo</h3>
+                    <p>O preservativo masculino ou feminino é a forma mais eficaz de prevenção durante as relações sexuais.</p>
+                </div>
+                
+                <div class="prevention-item">
+                    <div class="prevention-icon">💉</div>
+                    <h3>Vacinação</h3>
+                    <p>Vacine-se contra HPV e Hepatite B. As vacinas estão disponíveis no SUS.</p>
+                </div>
+                
+                <div class="prevention-item">
+                    <div class="prevention-icon">🔬</div>
+                    <h3>Exames Regulares</h3>
+                    <p>Faça exames regularmente, mesmo sem sintomas. Muitas ISTs são assintomáticas.</p>
+                </div>
+                
+                <div class="prevention-item">
+                    <div class="prevention-icon">💬</div>
+                    <h3>Diálogo Aberto</h3>
+                    <p>Converse com seu parceiro(a) sobre histórico de saúde e façam exames juntos.</p>
+                </div>
+            </div>
+            
+            <div class="emergency-info">
+                <h3>🚨 Em caso de exposição de risco</h3>
+                <p>Procure uma unidade de saúde em até 72 horas para avaliação de PEP (Profilaxia Pós-Exposição).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section id="comments" class="comments">
+        <div class="container">
+            <h2>Comentários e Dúvidas</h2>
+            <p class="comments-intro">Compartilhe suas dúvidas ou experiências. Lembre-se: este espaço é para informação, sempre procure um profissional de saúde.</p>
+            
+            <div class="comment-form-container">
+                <form id="commentForm" class="comment-form">
+                    <div class="form-group">
+                        <label for="name">Nome (opcional)</label>
+                        <input type="text" id="name" placeholder="Seu nome ou deixe em branco para comentar anonimamente">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comment">Comentário *</label>
+                        <textarea id="comment" placeholder="Escreva seu comentário, dúvida ou experiência..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Publicar Comentário</button>
+                </form>
+            </div>
+            
+            <div class="comments-list" id="commentsList">
+                <!-- Comentários serão inseridos aqui via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ISTs Info</h3>
+                    <p>Informação confiável sobre prevenção e cuidados com a saúde sexual.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="https://www.gov.br/saude/pt-br" target="_blank">Ministério da Saúde</a></li>
+                        <li><a href="https://www.aids.gov.br/" target="_blank">Departamento de IST, Aids e Hepatites Virais</a></li>
+                        <li><a href="tel:136">Disque Saúde: 136</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Emergência</h4>
+                    <p>Em caso de emergência médica:</p>
+                    <p><strong>SAMU: 192</strong></p>
+                    <p><strong>Bombeiros: 193</strong></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ISTs Info. Este site tem fins educativos. Sempre consulte um profissional de saúde.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
